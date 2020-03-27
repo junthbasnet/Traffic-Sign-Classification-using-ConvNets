@@ -1,0 +1,6 @@
+Name,num_of_classes,dense_layer_neurons_2,epochs,concept,batch_size,total_params,dense_layer_neurons_1,dropout,learning_rate,L2_Regularization,val_accuracy,loss,epoch,accuracy,val_loss
+(1) LeNet-5,43,84,15,LeNet-5,64,64811,120,null,null,null,0.977999985,0.019163853,14,0.994419515,0.1184944
+(2) LeNet-5 + CLAHE,43,84,15,LeNet-5 + Contrast Enhancement,64,64811,120,null,null,null,0.975199997,0.013848956,14,0.995480835,0.124646298
+(3) LeNet-5 + CLAHE + AUG(v1),43,84,15,LeNet-5 + Contrast Enhancement + Augmentation(3000),64,64811,120,null,null,null,0.959620714,0.039610437,14,0.987569988,0.201567997
+(4)Deep LeNet-5 + AUG(v1),43,512,15,Deep LeNet-5 + Contrast Enhancement + Augmentation(3000),64,991819,1024,0.5,null,null,0.977103472,0.08322613,14,0.978110015,0.084741368
+(5)Deep LeNet-5 + AUG(v2),43,512,15,Deep LeNet-5 + Contrast Enhancement + Augmentation(4500) + Regularization,64,991819,1024,0.5,0.0001,0.001,0.992157459,0.15046348,14,0.97375387,0.091607908
