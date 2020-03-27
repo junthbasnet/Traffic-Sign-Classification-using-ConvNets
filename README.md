@@ -1,4 +1,4 @@
-<h1 align="center">Traffic Sign Classification using Convolutional Neural Network:grinning:</h1>
+<h2 align="center">Traffic Sign Classification using Convolutional Neural Network:grinning:</h2>
 
 <p align="center">
   <img src="./Assets/Traffic_Sign_Cover.jpg" border="10">
